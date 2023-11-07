@@ -29,7 +29,7 @@ function Contentbox1() {
                         <p>Leading SAFe certification training is a 2-day course held by SAFe® Program Consultants (SPCs) that teaches the Lean-Agile principles and practices of SAFe. The training gives you comprehensive knowledge in mastering Business Agility to succeed in a competitive market. You will learn how to adopt a customer-centric mindset and design thinking approach to agile product delivery.</p>
                     </div>
                     <div className="d-flex  ">
-                        <button className={`button-content1 active m-2 ${!toggle ? 'active' : ''}`} onClick={e => benifits(e)} >Explore The upcoming Batches! </button>
+                        <button className={`button-content1  m-2 ${!toggle ? 'active' : ''}`} onClick={e => benifits(e)} >Explore The upcoming Batches! </button>
                         <button className={`button-content1 m-2 ${toggle ? 'active' : ''}`} onClick={e => orginization(e)} >Corporate Enquiry  </button>
                     </div>
                 </div>
