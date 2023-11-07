@@ -36,9 +36,8 @@ function Contentbox1() {
                 <div className="image1">
                     <img src={Img1} alt="" />
                 </div>
-
             </div>
-            <div className="c-box d-flex justify-content-center p-4 my-5 ">
+            <div className="c-box1 d-flex justify-content-center p-4 my-5 ">
                 <div className="fb d-flex align-items-center mx-5">
                     <img className='img-c' src={Fb} alt="" /><p className='para m-0' >4.9/5</p>
                 </div>

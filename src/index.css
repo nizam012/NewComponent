@@ -105,7 +105,7 @@ body {
 }
 
 .c-box {
-  width: 948px;
+  /* width: 948px; */
   height: 100px;
   top: 463px;
   left: 478px;
@@ -229,13 +229,14 @@ body {
 }
 
 .c-box1 {
-  width: 948px;
+  /* width: 900px; */
   height: 100px;
   top: 463px;
   left: 478px;
   margin: 100px 200px;
   padding: 34px, 185.4px, 33px, 185px;
-  border-radius: 100px;
+  /* border-radius: 100px; */
+  border: 2px solid rgba(44, 121, 255, 1);
   background: rgba(247, 247, 247, 1);
 
 }
@@ -250,4 +251,8 @@ body {
 }
 .active{
   background: rgba(44, 120, 255, 1);
+  color: white;
+}
+.hr{
+  color: blu;
 }
