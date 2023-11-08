@@ -33,13 +33,13 @@ function Contentbox1() {
                         <div className="c-para1">
                             <p>Leading SAFe certification training is a 2-day course held by SAFe® Program Consultants (SPCs) that teaches the Lean-Agile principles and practices of SAFe. The training gives you comprehensive knowledge in mastering Business Agility to succeed in a competitive market. You will learn how to adopt a customer-centric mindset and design thinking approach to agile product delivery.</p>
                         </div>
-                        <div className="d-flex  ">
+                        <div className="but d-flex  ">
                             <button className={`button-content1  m-2 ${!toggle ? 'active' : ''}`} onClick={e => benifits(e)} >Explore The upcoming Batches! </button>
                             <button className={`button-content1 m-2 ${toggle ? 'active' : ''}`} onClick={e => orginization(e)} >Corporate Enquiry  </button>
                         </div>
                     </div>
                     <div className="image1">
-                        <img src={Img1} alt="" />
+                        <img className="image11" src={Img1} alt="" />
                     </div>
                 </div>
                 <div className="c-box1 d-flex justify-content-center p-4 my-5 ">
@@ -51,7 +51,7 @@ function Contentbox1() {
                             </div>
                             <p className='tr1' >Trained over 14900+ learners around the world</p>
                         </div>
-                        <img className='mx-2' src={Sf} alt="" />
+                        <img className='img-safe mx-2' src={Sf} alt="" />
                     </div>
                     <div className="fb d-flex align-items-center mx-5">
                         <img className='img-c' src={Fb} alt="" /><p className='para m-0' >4.9/5</p>

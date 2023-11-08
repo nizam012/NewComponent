@@ -24,7 +24,7 @@ function Nav() {
                             <li className='search'><input className='search1 p-2' type="text" placeholder="Search" /><BiSearchAlt2 className='sc-icon' fill='rgba(32, 78, 207, 1)' /></li>
                             <button className='button'> <BiSolidShoppingBag fill='black' /></button>
                             <button className='button'><IoMdContact fill='black' /></button>
-                            <button className='button'><AiOutlineMenu fill='black' /></button>
+                            <button className='button' id='menuuu'><AiOutlineMenu fill='black' /></button>
                         </ul>
                     </div>
                 </nav>
