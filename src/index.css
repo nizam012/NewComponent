@@ -28,10 +28,7 @@ body {
 }
 
 .search {
-  /* border: none; */
-  /* border-radius: 10px; */
-  /* box-shadow: 10px 0px 60px 0px rgba(76, 76, 76, 0.1); */
-  /* padding: 5px; */
+  
   position: relative;
 
 }
@@ -100,12 +97,10 @@ body {
   text-align: center;
   width: 75%;
   margin: 20px auto;
-  /* margin: 10px 150px; */
 
 }
 
 .c-box {
-  /* width: 948px; */
   height: 100px;
   top: 463px;
   left: 478px;
@@ -140,10 +135,6 @@ body {
   font-weight: 600;
 }
 
-/* .header{
-  color: blue;
-} */
-
 .pop-head {
   font-weight: 700;
   text-align: center;
@@ -153,7 +144,6 @@ body {
 
 .modal-content {
   background: rgb(184, 180, 180);
-  /* width: 80% ; */
 }
 
 .modal-dialog {
@@ -219,40 +209,68 @@ body {
   font-family: Nunito Sans;
   font-size: 16px;
   font-weight: 400;
-  /* line-height: 30px; */
-  /* letter-spacing: 0em; */
-  /* text-align: center; */
   width: 50%;
-  /* margin: 20px; */
-  /* margin: 10px 150px; */
+}
 
+.line {
+  bottom: 50px;
+  width: 100%;
+  border: 1px solid rgba(44, 121, 255, 1);
+  position: absolute;
+}
+
+.container {
+  position: relative;
 }
 
 .c-box1 {
-  /* width: 900px; */
   height: 100px;
   top: 463px;
   left: 478px;
-  margin: 100px 200px;
-  padding: 34px, 185.4px, 33px, 185px;
+  margin: 10%;
+  padding: 38px, 187.4px, 35px, 188px;
   /* border-radius: 100px; */
   border: 2px solid rgba(44, 121, 255, 1);
   background: rgba(247, 247, 247, 1);
-
 }
-.button-content1{
+
+.button-content1 {
   background: transparent;
   border: 1 solid black;
   border-radius: 5px;
   padding: 10px;
 }
-.image1{
+
+.image1 {
   margin: 10px;
 }
-.active{
+
+.active {
   background: rgba(44, 120, 255, 1);
   color: white;
 }
-.hr{
+
+.hr {
   color: blu;
+}
+
+.tr1 {
+  margin-top: -10px;
+}
+
+.img-st {
+  margin-top: -7px;
+}
+
+.safe {
+  margin-top: -15px;
+}
+
+.ski {
+  color: rgba(44, 120, 255, 1);
+  font-weight: 600;
+}
+
+.top-safe {
+  border-right: 1px solid rgb(117, 115, 115);
 }
